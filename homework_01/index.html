@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>hw</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="main">
+			<div id="container">
+				<div id="content" role="main">
+					<div>
+						<img src="./EPAM_logo.svg" alt="EPAM_logo">
+					</div>
+					<header>
+						<!--Navigation bar-->
+						<nav>
+							<a href="#HTML"><b>HTML</b></a>
+							<a href="#List"><b>List</b></a>
+							<a href="#Table"><b>Table</b></a>
+							<a href="#Text formats"><b>Text formats</b></a>
+							<a href="#Blockquotes"><b>Blockquotes</b></a>
+						</nav>
+					</header>
+
+					<hr>
+
+					<h1><a name="HTML"></a><strong>HTML Elements</strong></h1>
+
+					<hr>
+
+					<h2><a name="List"></a>Ordered List</h2>
+					<!--Unordered, ordered and definition lists-->
+					<ul>
+						<li>
+							<h2>Heading 1</h2>
+							<ul>
+								<li>
+									<h2>Heading 2</h2>
+									<ul>
+										<li>
+											<h3>Heading 3</h3>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+
+					<ol>
+						<li>
+							<h4>Heading 4</h4>
+							<ol>
+								<li>
+									<h5>Heading 5</h5>
+									<ol>
+										<li>
+											<h6>Heading 6</h6>
+										</li>
+									</ol>
+								</li>
+							</ol>
+						</li>
+					</ol>
+
+					<h3>Definition List</h3>
+					<dl>
+						<dt>defines terms 1</dt>
+						<dd>description 1</dd>
+						<dt>defines terms 2</dt>
+						<dd>description 2</dd>
+					</dl>
+					<!--Here we have details that the user can view or hide on demand-->
+					<h2>Details</h2>
+					<details open>
+						<summary>Even more details open</summary>
+						<p>Here are even more details about the details.</p>
+					</details>
+					<details>
+						<summary>Even more details close</summary>
+						<p>Here are even more details about the details.</p>
+					</details>
+
+					<hr>
+					<!--A table with different tags for text formatting-->
+					<h2><a name="Table"></a>Table</h2>
+					<table>
+						<tr>
+							<th>Elements</th>
+							<th>Elements</th>
+							<th>Elements</th>
+						</tr>
+						<tr>
+							<td><strong>strong</strong></td>
+							<td>H<sub>2</sub>O</td>
+							<td><a href="https://www.w3schools.com/html/html_links.asp" target="_blank">test link</a></td>
+						</tr>
+						<tr>
+							<td><i>Italic</i></td>
+							<td><u>Underline</u></td>
+							<td><del>delete</del></td>
+						</tr>
+						<tr>
+							<td><abbr>Abbreviation</abbr></td>
+							<td>5<sup>3</sup>=125</td>
+							<td><ins>inserted</ins></td>
+						</tr>
+					</table>
+
+					<hr>
+					<!--Different text formats-->
+					<h2><a name="Text formats"></a>Text formats</h2>
+					<p>Article Text</p>
+					<article>
+						<h2>Article title</h2>
+						<p><small>Article description</small></p>
+					</article>
+					<!--Preformatted Text-->
+					<h3>Preformatted Text</h3>
+					<pre>
+Text
+  in a pre element
+    is displayed in a fixed-width
+font, and it preserves
+both           spaces and
+    line breaks
+        	</pre>
+
+					<h3>Code</h3>
+
+					<pre>
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+        	</pre>
+
+					<hr>
+					<!--Blockquotes-->
+					<h2><a name="Blockquotes"></a>Blockquotes</h2>
+
+					<p>Let's keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.</p>
+
+					<blockquote>Technology is nothing. What's important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them. <br>
+						<a href="https://en.wikipedia.org/wiki/Steve_Jobs" target="_blank">Steve Jobs</a>
+					</blockquote>
+					<!--And here’s a bit of trailing text.!-->
+					<footer>Copyright Epam Systems</footer>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
