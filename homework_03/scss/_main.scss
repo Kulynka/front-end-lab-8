@@ -1,0 +1,129 @@
+//Mixins
+@mixin Hcolor($hColor) {
+	color: $hColor;
+}
+@mixin img($imgBorder,$imgPadding){
+	border: $imgBorder;
+	padding: $imgPadding;
+}
+
+body {
+	background-color: $BGPagecolor;
+	width: $divWidth;
+}
+
+p {
+	color: $pColor;
+}
+
+#content {
+	background-color: $BGDivColor;
+	width: $divWidth;
+	height: $divHeight;
+	padding: 0 20px 0 20px;
+	position: $divposition;
+	left: $divLeftMargin;
+}
+
+h1 {
+	@include Hcolor($hColor);
+	text-align: $TextAlign;
+}
+
+h2 {
+	@include Hcolor($hColor);
+}
+
+.img-left {
+	float: $imgLFloat;
+	@include img($imgBorder,$imgPadding);
+	margin: 0 15px 10px 0px;
+}
+
+.img-right {
+	float: $imgRFloat;
+	@include img($imgBorder,$imgPadding);
+	margin: 0 0 0px 10px;
+}
+
+.brief {
+	box-sizing: border-box;
+	width: $briefWidth;
+	padding: 20px 10px 20px 20px;
+	margin: 0 20px 20px 0;
+	float: left;
+	background-color: $briefColor; //#f4cdab;
+	color: #000000;
+}
+
+caption {
+	float: $TextAlign;
+}
+
+th {
+	font-weight: normal;
+	background-color: silver;
+	text-transform: uppercase;
+	text-align: Left;
+	padding: $TablePadding;
+
+}
+
+td {
+	padding: $TablePadding;
+	border-bottom: 1px solid #e3e7e7;
+}
+
+
+
+.userName {
+	display: flex;
+}
+
+.firstName {
+	padding: 0 10px 0 0;
+	width: $nameWidth;
+}
+
+input {
+	width: $areaWidth;
+	margin: 12px 0 14px 0;
+}
+
+.lastName {
+	width: $nameWidth;
+}
+
+textarea {
+	width: $areaWidth;
+	color: $tArea;
+}
+
+input[type="submit"] {
+	border: 1px solid $inputColor;
+	color: $inputColor;
+	background-color: white;
+	width: 230px;
+	padding: 12px 60px;
+	font-size: 20px;
+	background-color: $BGDivColor;
+}
+
+.inputname {
+	color: $formColor;
+	font-style: normal;
+	font-weight: 100;
+	margin: 0;
+}
+
+table {
+	background-color: $bgColor;
+}
+
+th {
+	background-color: $thColor;
+}
+
+a {
+	color: $acolor;
+}

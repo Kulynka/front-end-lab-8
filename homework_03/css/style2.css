@@ -1,0 +1,101 @@
+/*Page*/
+body {
+  background-color: #b7dff3;
+  width: 70%; }
+
+p {
+  color: white; }
+
+#content {
+  background-color: #312d2c;
+  width: 70%;
+  height: auto;
+  padding: 0 20px 0 20px;
+  position: absolute;
+  left: 15%; }
+
+h1 {
+  color: #fae644;
+  text-align: center; }
+
+h2 {
+  color: #fae644; }
+
+.img-left {
+  float: Left;
+  border: 2px solid #facd44;
+  padding: 3px;
+  margin: 0 15px 10px 0px; }
+
+.img-right {
+  float: Right;
+  border: 2px solid #facd44;
+  padding: 3px;
+  margin: 0 0 0px 10px; }
+
+.brief {
+  box-sizing: border-box;
+  width: 940px;
+  padding: 20px 10px 20px 20px;
+  margin: 0 20px 20px 0;
+  float: left;
+  background-color: #facd44;
+  color: #000000; }
+
+caption {
+  float: center; }
+
+th {
+  font-weight: normal;
+  background-color: silver;
+  text-transform: uppercase;
+  text-align: Left;
+  padding: 10px 20px; }
+
+td {
+  padding: 10px 20px;
+  border-bottom: 1px solid #e3e7e7; }
+
+.userName {
+  display: flex; }
+
+.firstName {
+  padding: 0 10px 0 0;
+  width: 50%; }
+
+input {
+  width: 100%;
+  margin: 12px 0 14px 0; }
+
+.lastName {
+  width: 50%; }
+
+textarea {
+  width: 100%;
+  color: #aba898; }
+
+input[type="submit"] {
+  border: 1px solid #fae644;
+  color: #fae644;
+  background-color: white;
+  width: 230px;
+  padding: 12px 60px;
+  font-size: 20px;
+  background-color: #312d2c; }
+
+.inputname {
+  color: #fae644;
+  font-style: normal;
+  font-weight: 100;
+  margin: 0; }
+
+table {
+  background-color: #7c8114; }
+
+th {
+  background-color: #81a528; }
+
+a {
+  color: #facd44; }
+
+/*# sourceMappingURL=style2.css.map */
