@@ -1,0 +1,103 @@
+.headT {
+    color: #81765f;
+    margin-top: 10px;
+}
+
+body {
+    background-color: #161616;
+}
+
+.divTanks {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.divForEachTank:hover {
+    background-color: #2c2c2c;
+}
+.tanksImage {
+    display: block;
+    height: 170px;
+    width: 210px;
+}
+
+.tank-model {
+    display: inline;
+    margin-left: 6px;
+}
+
+.level {
+    margin-left: 6px;
+}
+
+.tank-flag {
+    height: 350px;
+    width: 440px;
+}
+
+.preview {
+    margin-top: 25px;
+    color: #82866f;
+    display: block;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.backList {
+    color: #82866f;
+    display: block;
+    font-size: 13px;
+}
+
+.right {
+    margin-left: 500px;
+}
+
+.preTable {
+    margin-top: 65px;
+    margin-bottom: 15px;
+}
+
+table {
+    border: 1px solid #82866f;
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    border-collapse: collapse;
+    color: #d3d6b4;
+}
+
+th {
+    padding: 9px 24px;
+    border-right:1px solid #82866f;
+    text-align: left;
+    width: 300px;
+}
+
+th:nth-child(2n+1) {
+    width: 700px;
+}
+
+tr {
+    border: 1px solid #82866f;
+}
+
+.left {
+    float: left;
+}
+
+h1 {
+    margin-top: -60px;
+    color: #82866f;
+}
+
+.tank-model {
+    color: #d3d6b4;
+    text-transform: uppercase;
+}
+
+.level {
+    color: #82866f;
+    font-weight: bold;
+}
